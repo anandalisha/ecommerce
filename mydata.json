@@ -1,0 +1,198 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"mydata"},
+{"type":"table","name":"cart","database":"mydata","data":
+[
+{"cart_id":"10","pro_id":"18","qty":"1","ip_add":"::1","userid":"3"},
+{"cart_id":"11","pro_id":"20","qty":"1","ip_add":"::1","userid":"3"},
+{"cart_id":"13","pro_id":"22","qty":"1","ip_add":"::1","userid":"3"},
+{"cart_id":"14","pro_id":"19","qty":"1","ip_add":"::1","userid":"1"},
+{"cart_id":"15","pro_id":"22","qty":"4","ip_add":"::1","userid":"13"},
+{"cart_id":"16","pro_id":"18","qty":"1","ip_add":"::1","userid":"1"},
+{"cart_id":"17","pro_id":"20","qty":"1","ip_add":"::1","userid":"1"}
+]
+}
+,{"type":"table","name":"checktime","database":"mydata","data":
+[
+{"id":"169","arrived":"2018-12-04 08:46:44","setonoff":"0","username":""},
+{"id":"177","arrived":"2020-07-27 13:57:03","setonoff":"1","username":"user"},
+{"id":"178","arrived":"2020-07-28 00:54:12","setonoff":"0","username":""}
+]
+}
+,{"type":"table","name":"comment","database":"mydata","data":
+[
+{"com_id":"2","pro_id":"26","rating":"3","decc":"e","username":"user","date":"0000-00-00","helpful":"1","not_helpful":"0","com_img":""}
+]
+}
+,{"type":"table","name":"data_table","database":"mydata","data":
+[
+{"id":"1","name":"r","fname":"v","roll":"16cs411","result":"fail"},
+{"id":"10","name":"fff","fname":"","roll":"","result":""}
+]
+}
+,{"type":"table","name":"fileupload","database":"mydata","data":
+[
+{"id":"1","name":"ssf","pic":"Chrysanthemum.jpg"},
+{"id":"2","name":"ddd","pic":"Penguins.jpg"},
+{"id":"3","name":"asfd","pic":"Koala.jpg"},
+{"id":"4","name":"csdfs","pic":"Lighthouse.jpg"},
+{"id":"5","name":"sd","pic":"Tulips.jpg"},
+{"id":"6","name":"fff","pic":"262995.jpg"},
+{"id":"7","name":"raga","pic":"484781.jpg"},
+{"id":"8","name":"fff","pic":"687885.jpg"},
+{"id":"9","name":"fff","pic":"699763.jpg"}
+]
+}
+,{"type":"table","name":"flname","database":"mydata","data":
+[
+{"id":"1","fname":"d","lname":"d","age":"33"},
+{"id":"2","fname":"d","lname":"d","age":"22"},
+{"id":"3","fname":"d","lname":"d","age":"22"}
+]
+}
+,{"type":"table","name":"main_cat","database":"mydata","data":
+[
+{"cat_id":"32","cat_name":"Electronics"},
+{"cat_id":"33","cat_name":"Mens Fashion"},
+{"cat_id":"34","cat_name":"Womens Fashion"},
+{"cat_id":"35","cat_name":"Mobiles"},
+{"cat_id":"38","cat_name":"Books"},
+{"cat_id":"39","cat_name":"sports"}
+]
+}
+,{"type":"table","name":"newadd","database":"mydata","data":
+[
+{"add_id":"3","userid":"3","name":"d","phone":"444","pincode":"444444","house":"uzhavar karai","area":"gdgds","tandc":"fgdfg","state":"sfgfdg","addtype":""}
+]
+}
+,{"type":"table","name":"newuser","database":"mydata","data":
+[
+{"ID":"1","username":"user","phone":"9874563210","address":"pondicherry","city":"f","pincode":"","email":"sample@gmail.com","password":"user","set_online":"0","logout":"2020-07-28 00:54:12","user_img":"dddddd"}
+]
+}
+,{"type":"table","name":"payment","database":"mydata","data":
+[
+{"payment_id":"1","username":"d","cardname":"Laser","cardnumber":"6304100000000008\r\n","balance":"5000","otp":"0","set_online":"0","payment_method":"Credit_cart","voucher":"0"},
+{"payment_id":"3","username":"d","cardname":"Visa","cardnumber":"4111111111111111","balance":"274089","otp":"8504","set_online":"0","payment_method":"Credit_cart","voucher":"0"},
+{"payment_id":"4","username":"d","cardname":"visa","cardnumber":"1600050020000234","balance":"66075","otp":"1019","set_online":"0","payment_method":"Credit_cart","voucher":"0"}
+]
+}
+,{"type":"table","name":"placeorder","database":"mydata","data":
+[
+{"order_id":"4","pro_id":"19","qty":"2","userid":"3","date":"0000-00-00","order_cancel":"0"},
+{"order_id":"5","pro_id":"19","qty":"2","userid":"3","date":"2018-03-21","order_cancel":"0"},
+{"order_id":"6","pro_id":"19","qty":"1","userid":"3","date":"0000-00-00","order_cancel":"0"},
+{"order_id":"7","pro_id":"18","qty":"1","userid":"2","date":"0000-00-00","order_cancel":"0"},
+{"order_id":"8","pro_id":"21","qty":"1","userid":"3","date":"0000-00-00","order_cancel":"0"},
+{"order_id":"9","pro_id":"21","qty":"1","userid":"3","date":"2018-03-21","order_cancel":"0"},
+{"order_id":"10","pro_id":"21","qty":"3","userid":"3","date":"2018-03-26","order_cancel":"0"},
+{"order_id":"11","pro_id":"23","qty":"3","userid":"3","date":"2018-03-30","order_cancel":"0"},
+{"order_id":"12","pro_id":"17","qty":"1","userid":"3","date":"2018-03-28","order_cancel":"0"},
+{"order_id":"13","pro_id":"18","qty":"1","userid":"3","date":"2018-03-28","order_cancel":"0"},
+{"order_id":"14","pro_id":"25","qty":"1","userid":"3","date":"2018-03-28","order_cancel":"0"},
+{"order_id":"15","pro_id":"25","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"1"},
+{"order_id":"16","pro_id":"18","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"0"},
+{"order_id":"17","pro_id":"26","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"0"},
+{"order_id":"18","pro_id":"25","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"0"},
+{"order_id":"19","pro_id":"21","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"0"},
+{"order_id":"20","pro_id":"16","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"1"},
+{"order_id":"21","pro_id":"20","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"1"},
+{"order_id":"22","pro_id":"22","qty":"1","userid":"3","date":"2018-03-31","order_cancel":"1"},
+{"order_id":"23","pro_id":"22","qty":"1","userid":"3","date":"2018-04-01","order_cancel":"0"},
+{"order_id":"24","pro_id":"25","qty":"1","userid":"3","date":"2018-04-01","order_cancel":"0"},
+{"order_id":"25","pro_id":"20","qty":"1","userid":"3","date":"2018-04-01","order_cancel":"1"},
+{"order_id":"26","pro_id":"18","qty":"1","userid":"3","date":"2018-04-01","order_cancel":"0"},
+{"order_id":"27","pro_id":"22","qty":"1","userid":"3","date":"2018-04-01","order_cancel":"0"},
+{"order_id":"28","pro_id":"19","qty":"1","userid":"3","date":"2018-04-02","order_cancel":"1"},
+{"order_id":"29","pro_id":"21","qty":"4","userid":"3","date":"2018-04-13","order_cancel":"0"},
+{"order_id":"30","pro_id":"18","qty":"1","userid":"3","date":"2018-04-13","order_cancel":"0"},
+{"order_id":"31","pro_id":"17","qty":"1","userid":"3","date":"2018-04-13","order_cancel":"0"},
+{"order_id":"32","pro_id":"25","qty":"1","userid":"3","date":"2018-04-13","order_cancel":"0"},
+{"order_id":"33","pro_id":"25","qty":"1","userid":"3","date":"2018-05-03","order_cancel":"0"},
+{"order_id":"34","pro_id":"18","qty":"1","userid":"3","date":"2018-05-03","order_cancel":"1"},
+{"order_id":"35","pro_id":"0","qty":"1","userid":"3","date":"2018-05-05","order_cancel":"0"},
+{"order_id":"36","pro_id":"27","qty":"1","userid":"3","date":"2018-05-05","order_cancel":"0"},
+{"order_id":"37","pro_id":"27","qty":"1","userid":"10","date":"2018-05-05","order_cancel":"0"},
+{"order_id":"38","pro_id":"22","qty":"1","userid":"10","date":"2018-05-05","order_cancel":"0"},
+{"order_id":"39","pro_id":"18","qty":"1","userid":"10","date":"2018-05-05","order_cancel":"1"},
+{"order_id":"40","pro_id":"21","qty":"1","userid":"10","date":"2018-04-28","order_cancel":"0"},
+{"order_id":"41","pro_id":"23","qty":"3","userid":"13","date":"2018-10-21","order_cancel":"1"},
+{"order_id":"42","pro_id":"18","qty":"1","userid":"13","date":"2018-10-21","order_cancel":"1"},
+{"order_id":"43","pro_id":"17","qty":"1","userid":"13","date":"2018-10-21","order_cancel":"1"},
+{"order_id":"44","pro_id":"18","qty":"3","userid":"13","date":"2018-11-01","order_cancel":"0"}
+]
+}
+,{"type":"table","name":"products","database":"mydata","data":
+[
+{"pro_id":"16","pro_name":"sony tv 64 inch perfumes","cat_id":"32","sub_cat_id":"20","pro_img1":"21.jpg","pro_img2":"23.jpg","pro_img3":"24.jpg","pro_img4":"23.jpg","pro_feature1":"LED","pro_feature2":"Side view","pro_feature3":"Good look","pro_feature4":"live long","pro_feature5":"best quality","pro_price":"33","pro_model":"sony123","pro_warranty":"2 years","pro_keyword":"tv,sony tv,sony,sony electronics","pro_added_date":"2018-02-13 20:21:07","for_whome":"women","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"17","pro_name":"sony Multidoor fridge watch","cat_id":"32","sub_cat_id":"21","pro_img1":"20(1).jpg","pro_img2":"19(1).jpg","pro_img3":"18(1).jpg","pro_img4":"20(1).jpg","pro_feature1":"Full covered","pro_feature2":"Reduce current","pro_feature3":"frezz quickly","pro_feature4":"low current support","pro_feature5":"Multi door","pro_price":"20","pro_model":"sonyf123","pro_warranty":"2 years","pro_keyword":"fridge,electronics,large applices,home,kitchen","pro_added_date":"2018-02-13 20:19:40","for_whome":"men","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"18","pro_name":"Canon c45 perfumes","cat_id":"32","sub_cat_id":"22","pro_img1":"13(1).jpg","pro_img2":"14.jpg","pro_img3":"16.jpg","pro_img4":"13(1).jpg","pro_feature1":"24 mpx","pro_feature2":"DSLR shoot","pro_feature3":"clear view of long shoot","pro_feature4":"good quality","pro_feature5":"take easy","pro_price":"40","pro_model":"Canonc45","pro_warranty":"4years","pro_keyword":"cameras,canon,cameras canon,electronis,24mp","pro_added_date":"2018-03-31 15:35:33","for_whome":"men","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"19","pro_name":"Tshirt watch","cat_id":"33","sub_cat_id":"23","pro_img1":"25.jpg","pro_img2":"26.jpg","pro_img3":"27.jpg","pro_img4":"28.jpg","pro_feature1":"carton","pro_feature2":"useful for summer","pro_feature3":"reduce sun power","pro_feature4":"smoth","pro_feature5":"bluecolor","pro_price":"20","pro_model":"tshirt33blue","pro_warranty":"6 months","pro_keyword":"bluecolor,lg,redmi,nokia","pro_added_date":"2018-05-31 16:04:53","for_whome":"women","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"20","pro_name":"shoes z456","cat_id":"33","sub_cat_id":"24","pro_img1":"29.jpg","pro_img2":"29.jpg","pro_img3":"29.jpg","pro_img4":"29.jpg","pro_feature1":"functions","pro_feature2":"party","pro_feature3":"different color","pro_feature4":"easyly used","pro_feature5":"take easy","pro_price":"45","pro_model":"shoes combo3","pro_warranty":"3 months","pro_keyword":"shoes z456,shoes,combo shoes,combo ","pro_added_date":"2018-02-11 11:46:17","for_whome":"men","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"21","pro_name":"cothes black","cat_id":"34","sub_cat_id":"27","pro_img1":"34.jpg","pro_img2":"33.jpg","pro_img3":"34.jpg","pro_img4":"34.jpg","pro_feature1":"See Description Page Of The Product","pro_feature2":"One Button Blazer, With Single Cut ","pro_feature3":" This Product Is Menjestic Others ","pro_feature4":"So Buy And Go For Menjestic Only ","pro_feature5":"Size Guide Blazer & Waistcoat Size Should","pro_price":"90","pro_model":"womencoths45","pro_warranty":"3 months","pro_keyword":"cothes,women,black,long fit,cothes black","pro_added_date":"2018-04-17 23:39:48","for_whome":"women","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"22","pro_name":"Sony Xperia","cat_id":"35","sub_cat_id":"28","pro_img1":"6.jpeg","pro_img2":"8.jpg","pro_img3":"7.jpg","pro_img4":"5.jpg","pro_feature1":"23mp back23mp back8mp front","pro_feature2":"8mp front8mp front8mp front","pro_feature3":"clear pixels photos8mp front8mp front","pro_feature4":"4g support8mp front8mp front","pro_feature5":"micro sim8mp front8mp front","pro_price":"49999","pro_model":"xperia z3+","pro_warranty":"1 year","pro_keyword":"23mp,8mp,sony xperia z3+,xperia z3+,Rs.30,000,mobiles","pro_added_date":"2018-03-28 18:39:54","for_whome":"for_whome","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"23","pro_name":"mens watch r45 belt","cat_id":"33","sub_cat_id":"25","pro_img1":"31.jpg","pro_img2":"32.jpg","pro_img3":"30.jpg","pro_img4":"32.jpg","pro_feature1":"different combo","pro_feature2":"red white blue metal","pro_feature3":"anolog","pro_feature4":"more style ","pro_feature5":"good quality","pro_price":"60","pro_model":"watch45men","pro_warranty":"5 months","pro_keyword":"watch,mens watch,anolog,combo,tshirt","pro_added_date":"2018-02-11 11:45:34","for_whome":"men","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"24","pro_name":"YU5010","cat_id":"35","sub_cat_id":"29","pro_img1":"4.jpg","pro_img2":"3(1).JPG","pro_img3":"2.jpg","pro_img4":"1.jpg","pro_feature1":"8mp","pro_feature2":"5mp","pro_feature3":"4g support","pro_feature4":"16gb internal","pro_feature5":"grilla glass","pro_price":"70","pro_model":"YU5010","pro_warranty":"1 year","pro_keyword":"YU5010,grilla glass,4g support,8mp,5mp","pro_added_date":"2018-02-13 20:21:04","for_whome":"kids","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"25","pro_name":"headset belt watch games","cat_id":"35","sub_cat_id":"28","pro_img1":"9.jpg","pro_img2":"10.jpg","pro_img3":"11.jpg","pro_img4":"12.jpg","pro_feature1":"clear sound effectsclear sound effects","pro_feature2":"clear sound effects","pro_feature3":"clear sound effectsclear sound effects","pro_feature4":"clear sound effects","pro_feature5":"clear sound effects clear sound effects","pro_price":"30","pro_model":"sonyhs123","pro_warranty":"2 years","pro_keyword":"headset,headphone,sony mobile,electronics","pro_added_date":"2018-03-31 15:35:47","for_whome":"women","Sub_titile1":"","Sub_titile1_details":"","Sub_titile2":"","Sub_titile2_details":"","Sub_titile3":"","Sub_titile3_details":"","Sub_titile4":"","Sub_titile4_details":"","sub_titile5":"","sub_titile5_details":"","sub_titile6":"","sub_titile6_details":"","sub_titile7":"","sub_titile7_details":"","sub_titile8":"","sub_titile8_details":"","sub_titile9":"","sub_titile9_details":"","sub_titile10":"","sub_titile10_details":"","sub_titile11":"","sub_titile11_details":"","pro_img5":"","pro_img6":"","pro_img7":"","pro_img8":"","pro_img9":"","pro_img10":"","pro_img11":""},
+{"pro_id":"27","pro_name":"micromax yu 5010","cat_id":"35","sub_cat_id":"29","pro_img1":"4.jpg","pro_img2":"3(1).JPG","pro_img3":"2.jpg","pro_img4":"1.jpg","pro_feature1":"Discover a new side of slim","pro_feature2":"Discover a new side of slim","pro_feature3":"Discover a new side of slim","pro_feature4":"Discover a new side of slim","pro_feature5":"Discover a new side of slim","pro_price":"7000","pro_model":"yu5010 micromax","pro_warranty":"2 years,box 5 months","pro_keyword":"mobile,phone,micromax","pro_added_date":"2018-03-10 23:38:30","for_whome":"men","Sub_titile1":" Slimmer, Lighter and Incredibly Comfortable to Hold","Sub_titile1_details":"Want to enhance your multimedia experience? Get the Sony Xperia Z3+ (Black, 32GB) online from Amazon India. Slim, lightweight and superfast, this Smartphone from Sony is all set to dazzle you with its impressive looks and excellent performance. This 4G enabled phone comes with a 5.20-inch touchscreen display and is loaded with Cat 6 LTE\/4G Modem which gives you the fastest internet connection. It has a sleek 6.9 mm frame, which easily snuggles in your palm. The phone comes with 3GB of RAM and is powered by 1.5GHz Octa-Core Qualcomm Snapdragon 810 processor for a lag-free performance.","Sub_titile2":"Seamless Performance and Outstanding Processing Speed","Sub_titile2_details":"Running multiple apps, streaming videos or playing games become easy with the Sony Xperia Z3+ as it is powered by an efficient 64-bit Qualcomm Snapdragon 810 processor and 3 GB RAM. The excellent processor delivers 50% more speed, allowing you to access all your apps without waiting. The phone packs the latest Sony sound technologies to deliver a superior listening experience. The Hi-Res Audio reduces any noise distortion and produces crystal clear sound infused with optimum details. For all the online games, the Xperia Z3+ 32 GB has something really exciting. With its PS4 Remote Play app, it enables you to play games from anywhere in your home by easily switch between Smartphone and PS4 console.","Sub_titile3":"Waterproof and Dust-Resistant Smartphone","Sub_titile3_details":"The Xperia Z3+ sports a waterproof design and is resistant to dust particles. Carry your Smartphone wherever you go and play in the pool or roll in the sand without having to worry about damaging it. With an excellent IP65\/IP68 rating, the phone can easily withstand in 1.5 m of water and for longer than 30 minutes. So downpours arenâ€™t a problem anymore. Nor is sand, spills or an accidental dip in the water. The phone has an incredible battery life which delivers power for up to two days, enabling you to accomplish all your important tasks without fretting about the battery getting drained out.","Sub_titile4":"Captures Spectacular Snapshots with Enhanced Clarity","Sub_titile4_details":"The Xperia Z3+ allows you to click stunning selfies for social sharing with its 20.7 MP primary camera (with autofocus). Its Superior Auto scene recognition and SteadyShot with Intelligent Active Mode lets you click clear and crisp shots every time. The 5 MP front camera of the device with Exmor R sensor allows you to click brilliant selfies even in low light situations. If you are looking for a perfect group selfie, the wider frame can help as it facilitates you to include more of your friends in the frame. You can also enhance your photography skills with the in-built camera apps of this Smartphone. The 4K-Ultra HD Video recording of the Xperia Z3+ supports you to capture four times the details as compared to 1080p full HD video recording.","sub_titile5":"Discover a new side of slim","sub_titile5_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasnâ€™t so nice to look at, you could almost forget you were holding it.","sub_titile6":"Discover a new side of slim","sub_titile6_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasnâ€™t so nice to look at, you could almost forget you were holding it.","sub_titile7":"Discover a new side of slim","sub_titile7_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasnâ€™t so nice to look at, you could almost forget you were holding it.","sub_titile8":"Discover a new side of slim","sub_titile8_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasnâ€™t so nice to look at, you could almost forget you were holding it.","sub_titile9":"Discover a new side of slim","sub_titile9_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasnâ€™t so nice to look at, you could almost forget you were holding it.","sub_titile10":"Discover a new side of slim","sub_titile10_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasnâ€™t so nice to look at, you could almost forget you were holding it.","sub_titile11":"Discover a new side of slim","sub_titile11_details":"The Xperia Z3+ is slimmer than ever at just 6.9 mm, and incredibly light in your hand. In fact, if it wasn’t so nice to look at, you could almost forget you were holding it.","pro_img5":"8.jpg","pro_img6":"one1.jpg","pro_img7":"two1.jpg","pro_img8":"30.jpg","pro_img9":"51Aka2NY3gL._AC_SL1500_.jpg","pro_img10":"11.jpg","pro_img11":"12.jpg"},
+{"pro_id":"28","pro_name":"OnePlus 5T","cat_id":"39","sub_cat_id":"28","pro_img1":"p.jpg","pro_img2":"p1.jpg","pro_img3":"p2.jpg","pro_img4":"p3.jpg","pro_feature1":"20MP+16MP primary dual camera ","pro_feature2":"16MP front facing camera","pro_feature3":"15.26 centimeters (6.01-inch) capacitive","pro_feature4":"6 GB RAM, 64 GB internal memory","pro_feature5":"1 year manufacturer warranty for device","pro_price":"32999","pro_model":"OnePlus 5T","pro_warranty":"1 year","pro_keyword":"OnePlus 5T,mobile","pro_added_date":"2018-03-31 23:02:50","for_whome":"women","Sub_titile1":"20MP+16MP primary dual camera and 16MP front facing camera","Sub_titile1_details":"The OnePlus 5T comes with a 18:9 Full Optic AMOLED display, 20+16 MP dual primary camera, 6\/8 GB of RAM; up to 128 GB memory, Snapdragon 835 processor and much more","Sub_titile2":"6 GB RAM, 64 GB internal memory and dual nano SIM dual-standby (4G+4G)","Sub_titile2_details":"The OnePlus 5T comes with a 18:9 Full Optic AMOLED display, 20+16 MP dual primary camera, 6\/8 GB of RAM; up to 128 GB memory, Snapdragon 835 processor and much more","Sub_titile3":"Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled","Sub_titile3_details":"The OnePlus 5T comes with a 18:9 Full Optic AMOLED display, 20+16 MP dual primary camera, 6\/8 GB of RAM; up to 128 GB memory, Snapdragon 835 processor and much more","Sub_titile4":"Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled","Sub_titile4_details":"The OnePlus 5T comes with a 18:9 Full Optic AMOLED display, 20+16 MP dual primary camera, 6\/8 GB of RAM; up to 128 GB memory, Snapdragon 835 processor and much more","sub_titile5":"Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled","sub_titile5_details":"6 GB RAM, 64 GB internal memory and dual nano SIM dual-standby (4G+4G) 3300mAH lithium Polymer battery with Dash Charge technology Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled 1 year manufacturer warranty for device and in-box accessories including batteries from the date of purchase For any product related queries kindly contact brand customer care toll free no:18001028411","sub_titile6":"","sub_titile6_details":"6 GB RAM, 64 GB internal memory and dual nano SIM dual-standby (4G+4G) 3300mAH lithium Polymer battery with Dash Charge technology Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled 1 year manufacturer warranty for device and in-box accessories including batteries from the date of purchase For any product related queries kindly contact brand customer care toll free no:18001028411","sub_titile7":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of ","sub_titile7_details":"6 GB RAM, 64 GB internal memory and dual nano SIM dual-standby (4G+4G) 3300mAH lithium Polymer battery with Dash Charge technology Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled 1 year manufacturer warranty for device and in-box accessories including batteries from the date of purchase For any product related queries kindly contact brand customer care toll free no:18001028411","sub_titile8":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of ","sub_titile8_details":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of purcha","sub_titile9":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of ","sub_titile9_details":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of purcha","sub_titile10":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of ","sub_titile10_details":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of purcha","sub_titile11":"1 year manufacturer warranty for device and in-box accessories including batteries from the date of ","sub_titile11_details":"6 GB RAM, 64 GB internal memory and dual nano SIM dual-standby (4G+4G) 3300mAH lithium Polymer battery with Dash Charge technology Face Unlock, Fingerprint scanner, all-metal unibody and NFC enabled 1 year manufacturer warranty for device and in-box accessories including batteries from the date of purchase For any product related queries kindly contact brand customer care toll free no:18001028411","pro_img5":"p4.jpg","pro_img6":"p5.jpg","pro_img7":"p6.jpg","pro_img8":"p7.jpg","pro_img9":"p8.jpg","pro_img10":"p9.jpg","pro_img11":"p1.jpg"}
+]
+}
+,{"type":"table","name":"recentview","database":"mydata","data":
+[
+{"rv_id":"4","pro_id":"4","userid":"4","set_online":"4","date":"2018-04-14 23:20:44"},
+{"rv_id":"5","pro_id":"26","userid":"0","set_online":"0","date":"2018-04-22 21:03:25"},
+{"rv_id":"6","pro_id":"24","userid":"0","set_online":"1","date":"2018-10-21 01:22:58"},
+{"rv_id":"7","pro_id":"17","userid":"0","set_online":"1","date":"2020-07-12 11:31:03"},
+{"rv_id":"8","pro_id":"18","userid":"0","set_online":"2","date":"2020-07-27 23:43:42"},
+{"rv_id":"9","pro_id":"16","userid":"0","set_online":"1","date":"2020-07-12 11:24:38"},
+{"rv_id":"10","pro_id":"20","userid":"0","set_online":"2","date":"2018-11-15 16:40:54"},
+{"rv_id":"12","pro_id":"21","userid":"0","set_online":"2","date":"2018-06-01 19:41:56"},
+{"rv_id":"13","pro_id":"19","userid":"0","set_online":"2","date":"2020-07-27 19:08:44"},
+{"rv_id":"17","pro_id":"22","userid":"0","set_online":"1","date":"2020-07-12 11:29:01"},
+{"rv_id":"18","pro_id":"25","userid":"0","set_online":"1","date":"2018-07-06 19:42:44"},
+{"rv_id":"19","pro_id":"27","userid":"0","set_online":"1","date":"2018-07-06 19:42:11"},
+{"rv_id":"20","pro_id":"28","userid":"0","set_online":"1","date":"2020-07-27 18:28:21"},
+{"rv_id":"21","pro_id":"23","userid":"0","set_online":"1","date":"2020-07-12 11:30:15"}
+]
+}
+,{"type":"table","name":"saveforlater","database":"mydata","data":
+[
+{"save_id":"14","pro_id":"19","userid":"3"}
+]
+}
+,{"type":"table","name":"sort","database":"mydata","data":
+[
+{"set_online":"1","username":""},
+{"set_online":"0","username":"b"}
+]
+}
+,{"type":"table","name":"sub_cat","database":"mydata","data":
+[
+{"sub_cat_id":"20","sub_cat_name":"Tv","cat_id":"32"},
+{"sub_cat_id":"21","sub_cat_name":"Large appliances","cat_id":"32"},
+{"sub_cat_id":"22","sub_cat_name":"Cameras","cat_id":"32"},
+{"sub_cat_id":"23","sub_cat_name":"clothing","cat_id":"33"},
+{"sub_cat_id":"24","sub_cat_name":"Shoes","cat_id":"33"},
+{"sub_cat_id":"25","sub_cat_name":"watches","cat_id":"33"},
+{"sub_cat_id":"26","sub_cat_name":"jewellery","cat_id":"33"},
+{"sub_cat_id":"27","sub_cat_name":"Dress women","cat_id":"34"},
+{"sub_cat_id":"28","sub_cat_name":"sony","cat_id":"35"},
+{"sub_cat_id":"29","sub_cat_name":"micromax","cat_id":"35"},
+{"sub_cat_id":"33","sub_cat_name":"rongoli","cat_id":"38"},
+{"sub_cat_id":"34","sub_cat_name":"philips","cat_id":"35"}
+]
+}
+,{"type":"table","name":"testdb","database":"mydata","data":
+[
+{"ID":"2","NAME":"","FATHERNAME":"","ROLLNO":"","RESULT":""}
+]
+}
+,{"type":"table","name":"whishlist","database":"mydata","data":
+[
+{"whishlist_id":"7","pro_id":"17","date":"2018-03-31","userid":"3"},
+{"whishlist_id":"8","pro_id":"19","date":"2018-03-31","userid":"3"},
+{"whishlist_id":"9","pro_id":"18","date":"2018-03-31","userid":"3"}
+]
+}
+]
