@@ -1,0 +1,107 @@
+
+	
+	.container
+	{
+	   
+		width:500px;
+		height: 420px;
+		text-align: center;
+		background-color:rgba(52,73,94,0.7);
+		border-radius: 4px;
+		margin:0 auto;
+		margin-top:110px;
+		opacity:0.9;
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+	input[type="password"]:focus
+			{
+				width:50%;
+				border:2px solid aquamarine;
+				background-color:white;
+			}	
+			
+			input[type="button"]:focus
+			{
+				width:20%;
+				border:2px solid aquamarine;
+				background-color:#0000CD;
+			}	
+	.form-input::before
+	{
+		content:"\f007";
+		position:absolute;
+		font-family:"FontAwesome";
+		color:2F4F4F;
+		padding-left:3px;
+		
+		padding-top:1px;
+		font-size:30px;
+		
+		
+	}
+	.form-input1::before
+	{
+		content:"\f007";
+		position:absolute;
+		font-family:"FontAwesome";
+		color:2F4F4F;
+		padding-left:3px;
+		
+		padding-top:1px;
+		font-size:30px;
+		
+		
+	}
+	
+	.form-input:nth-child(2)::before
+	{
+		content:"\f023";
+		
+	}
+	
+	.form-input:nth-child(3)::before
+	{
+		content:"\f0a9";
+		color:000000;
+		padding-left:100px;
+		
+		padding-top:6px;
+		cursor:pointer;
+	}
+	
+	.form-input1:last-child::before
+	{
+		content:"\f234";
+		color:000000;
+		padding-left:115px;
+		
+		padding-top:4px;
+		cursor:pointer;
+	}
+	
+	
+	
+	
+	
+	
+	a
+	{
+		color:#40E0D0;
+		cursor:pointer;
+		margin-left:-230px;
+		
+	}
+	
+	.text-danger
+	{
+		align:center;
+		margin-top:110px;
+	}
