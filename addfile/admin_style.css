@@ -1,0 +1,43 @@
+*{margin:0;padding:0;font-family:verdana,geneva,sans-serif;}
+
+
+body{background:#800080;}
+
+#header{background:#ff4000; width:100%;height:50px;}
+
+#bodyleft{padding:1%;box-sizing:border-box;border-radius:3px;margin:1%;  width:23%;height:500px;background:#400040;float:left;}
+ 
+ 
+ #bodyleft h3{border-radius:3px;color:#fff;height:30px;line-height:30px;background:#ff4000;text-align:center;font-size:14px;font-weight:bold;}
+ 
+ 
+ #bodyleft ul{list-style-type:none;margin-top:5px;}
+ #bodyleft ul li{border-radius:3px;box-sizing:border-box;line-height:30px;padding-left:2%;width:100%;height:30px;border-bottom:1px solid #e6e6e6}
+ 
+  #bodyleft ul li a{display:block !important; font-size:14px;text-decoration:none;color:000;}
+ 
+   #bodyleft ul li:hover{background:#000;}
+     #bodyleft ul li:hover a{color:#fff;}
+ 
+ 
+ 
+#bodyright{padding:2%;box-sizing:border-box;border-radius:3px;margin-top:1%;width:74%;height:200px;background:#400040;float:left;}
+
+#bodyright h2{border-radius:3px;height:50px;line-height:50px;background:ff4000;color:#fff; text-align:center; text-shadow:5px 5px 5px #000; }
+
+#bodyright form table{width:90%;margin:auto;}
+
+#bodyright form table tr td{width:50%;height:35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

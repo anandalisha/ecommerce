@@ -1,0 +1,39 @@
+
+
+
+<?php
+
+function add_cat()
+{
+	include("addfile/db.php");
+		
+		
+		
+		
+		if(isset($_POST['add_cat']))
+		{
+			$cat=$_POST['cat_name'];
+			
+			$add_cat=$con->prepare("insert into main_cat(cat_name) values('$cat')");
+			
+			if($add_cat->execute())
+			{
+				echo "<script>alert('$cat category Added successfully')</script>";
+			}
+			else
+			{
+				echo "<script>alert('$cat category Not Added successfully')</script>";
+			}
+			
+			
+		}
+}
+	
+	
+	
+?>
+
+
+
+
+
